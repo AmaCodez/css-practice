@@ -1,0 +1,129 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(246, 245, 243);
+}
+/* section 1 */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(231, 209, 181);
+    padding: 0px 100px;
+    margin: 20px 20px 0px 20px; /* top right down left*/
+}
+
+.header-links{
+    display: flex;
+    gap: 30px;
+}
+
+/* section 2 */
+.section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(219, 211, 200);
+    padding: 40px 0px 60px 0px;
+    margin: 10px 20px 0px 20px;
+    
+}
+.section2 h2{
+    width: 500px;
+    font-size: 40px;
+    text-align: center;
+}
+.section2 p{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 800px;
+    font-size: 20px;
+    
+}
+button a{
+    font-weight: 800;
+}
+.cta a{
+    font-size: 18px;
+}
+button :hover{
+    transition: 0.7s;
+    padding: 4px 10px;
+}
+
+/* section 3 */
+.section3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    margin: 0px 20px;
+}
+.section3 h2{
+    width: 700px;
+    font-size: 30px;
+    text-align: center;
+    /* border: 2px solid blue; */
+}
+.section3 p{
+    text-align: center;
+    margin-bottom: 50px;
+    width: 900px;
+    font-size: 20px;
+}
+/* section 4 */
+.section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(219, 211, 200) ;
+    margin: 0px 20px;
+    padding: 70px 300px;
+}
+img{
+    width: 250px;
+    height: auto;
+}
+.about{
+    width: 500px;
+    flex-shrink: 0;
+}
+.about h2{
+    font-size: 26px;
+}
+.about p{
+    margin-bottom: 30px;
+}
+.about-button a{
+    font-size: 16px;
+}
+/* -------------- */
+/* Remember to include flex-shrink */
+ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    font-size: 20px;
+}
+button{
+    border: 2px solid black;
+    padding: 6px 10px;
+    background-color: rgb(219, 211, 200);
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h2{
+     font-family: Arial, Helvetica, sans-serif;
+
+}
