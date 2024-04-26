@@ -177,6 +177,8 @@ footer{
 
 /* -------------- */
 /* Remember to include flex-shrink */
+/* The content isnt shrinking, despite flex-shrink, the content will escape the parent box */
+/* Solve this issue, I belive min-width:; needs to be used but learn how */
 ul{
     padding: 0;
     margin: 0;
