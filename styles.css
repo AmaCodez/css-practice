@@ -34,10 +34,8 @@ body {
 .section2 h2{
     width: 500px;
     font-size: 40px;
-    text-align: center;
 }
 .section2 p{
-    text-align: center;
     margin-bottom: 50px;
     width: 800px;
     font-size: 20px;
@@ -66,11 +64,8 @@ button :hover{
 .section3 h2{
     width: 700px;
     font-size: 30px;
-    text-align: center;
-    /* border: 2px solid blue; */
 }
 .section3 p{
-    text-align: center;
     margin-bottom: 50px;
     width: 900px;
     font-size: 20px;
@@ -92,15 +87,94 @@ img{
     width: 500px;
     flex-shrink: 0;
 }
-.about h2{
+#about-title{
+    text-align: left;
     font-size: 26px;
 }
-.about p{
+#about-text{
+    text-align: left;
     margin-bottom: 30px;
 }
 .about-button a{
     font-size: 16px;
 }
+/* section 5 */
+.section5 {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 320px;
+}
+.service-description{
+    justify-content: center;
+}
+
+.box{
+    background-color: rgb(231, 209, 181);
+    width: 200px;
+    height: 200px;
+}
+.service-description p{
+    text-align: center;
+    /* width: 90;  */
+    font-size: 20px;
+} 
+/* section 6 */
+.section6{
+    background-color: rgb(219, 211, 200);
+    margin: 0px 20px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+.testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 455px 30px 455px;
+    background-color:rgb(246, 245, 243);
+    
+}
+.testimony h2{
+    font-size: 30px;
+    width: 400px;
+}                        
+.testimony p{
+    font-size: 20px;
+}
+/* section 7 */
+.extras{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px ;
+    background-color:rgb(219, 211, 200) ;
+    padding: 40px 300px 60px 300px;
+}
+.extras h2{
+    font-size: 30px;
+}
+.extras p{
+    font-size: 20px;
+}
+/* section 8 */
+footer{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    background-color: rgb(231, 209, 181);
+    padding: 40px 190px;
+    margin: 0px 20px 20px 20px;
+}
+.left-links, .right-links{
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
 /* -------------- */
 /* Remember to include flex-shrink */
 ul{
@@ -125,5 +199,9 @@ a{
 
 h2{
      font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
 
+}
+p{
+    text-align: center;
 }
